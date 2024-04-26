@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌹¿Me perdonas?🌹</title>
+  <style>
+    .body {
+      
+      text-align: center;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 51%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">🌹¿Me perdonas?🌹</h1>
+  <img src="https://i.pinimg.com/originals/0d/53/98/0d5398a548e216b98cef8b00ce164d46.png" alt="Foto D My" class="body__img" />
+  <br>
+  <button id="yes">❤️Si❤️</button>
+  <button id="no">😭No😭</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞Gracias💞');
+      alert('🥰I will make you happy forever🥰');
+      location.href = 'https://keyyyen.blogspot.com/2024/04/love.html';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
